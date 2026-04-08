@@ -19,7 +19,8 @@ I wanted to explore how phone systems work and combine analog and IP phones with
 - Python scripts trigger calls and playback
 
 ## Images
-!(diagram/SystemDiagram.png)
+## System Diagram
+![System Architecture Diagram](diagrams/SystemDiagram.png)
 
 ## Wiring Diagram
 (Add your wiring diagram image here)
@@ -29,10 +30,11 @@ I wanted to explore how phone systems work and combine analog and IP phones with
 
 ## BOM
 
-Name,Purpose,Quantity,Total Cost (USD),Link,Distributor
-"Cordless/analog Handset Phone","The other phone for the Weather Alerts.",1,23.25,"https://www.amazon.com/VTech-VG131-11-DECT-Cordless-Phone/dp/B0CTQDMHBH/ref=sr_1_4?crid=NUCWP9PANS49&dib=eyJ2IjoiMSJ9.cu1nw485cFhRAD7XHtZdv3WmzrOtY3N1RhTWlEgpl9Q9yOoz-HMOGtc-mIzy5TD1lcpcRidYt7oOZ9vRRZpptMQvDhTUDcFlUAmkqfb3GFUlEcjh_ubhZxv7X_eY4pLQ8jna9qqF42Nwghdmr4z8P1Sc5yMEoSaDxOdw4j9zwvn8DMuSqqfJqwCqw9qITsOmUZmA5RSisaW8M1PMkYTDz2aN2jYu_Lpf1YgYXajXc8Q.tMmHEw2Cdw9SKzbTzZXzFhi5ccrzggCFL3emBDZ0eLQ&dib_tag=se&keywords=cordless%2Bphone&qid=1775564285&sprefix=cordless%2Bphon%2Caps%2C168&sr=8-4&th=1","Amazon"
-"IP Phone","One of the 2 main phones for receiving notifications.",1,40.00,"https://www.amazon.com/Grandstream-GXP1625-Medium-Business-Device/dp/B00VNMWRFK/ref=sr_1_1?dib=eyJ2IjoiMSJ9.8fEnaCS_Jdj4GOKYc4BzRHrBrCs1iPkrCHwC7jCWtNyDifOMjELtoiASvAmm1AoOpe9gE5QgaggLAbez1PPTeK41ReGcMtNrqqOiY6wwbJVA9yKOB8yRbufRCzRIHExs7mT_eHh-HLvCkh37BSDLQaCjdzCLtBg-584usAvT2qNa_oT5TIzQ3c89-kCfuQKIt2DexBF5PKrAY027vOAAvtbRHZlCdfZJK7VD8nwsHGA.OzIcouhstyrC71bW9YKPLF3QwFRxjGVIiKpZhD_g40Q&dib_tag=se&keywords=ip+phone&qid=1775564174&sr=8-1","Amazon"
-"RJ-11 Phone Line","To connect the Analog Phone to the ATA.",1,6.99,"https://www.amazon.com/gp/product/B0BG863P4N/ref=ox_sc_act_title_1?smid=AZ8NOMB59OGQR&th=1","Amazon"
-"Cisco SPA122 Small Business ATA with Router","This is an ATA that translates the Analog phone signals into IP Phone SIP Capable signals.",1,55.95,"https://www.amazon.com/gp/product/B07HFJ1Y4Q/ref=ox_sc_act_title_1?smid=AWIPQ0B31NSFK&psc=1","Amazon/Cisco"
-"32 GB Micro SD Card","The storage/operating system hold for the Raspberry Pi",1,20.50,"https://www.amazon.com/gp/product/B08L5HMJVW/ref=ox_sc_act_title_2?smid=A3QF16EH69HELL&th=1","Amazon/SanDisk"
-"Raspberry Pi 4B (4GB)","The central PBX computer running the phone service and TTS.",1,81.99,"https://www.amazon.com/gp/product/B09TTNF8BT/ref=ox_sc_act_title_3?smid=AJQ2XOOLXYM4U&psc=1","Amazon"
+| Item | Purpose | Quantity | Cost (USD) | Link | Distributor |
+|------|--------|----------|------------|------|-------------|
+| Cordless / Analog Handset Phone | The phone used for weather alerts | 1 | $23.25 | [Link](https://shorturl.at/lm3eZ) | Amazon |
+| IP Phone | Main phone for receiving notifications | 1 | $40.00 | [Link](https://shorturl.at/J7IDi) | Amazon |
+| RJ-11 Phone Line | Connects analog phone to ATA | 1 | $6.99 | [Link](https://shorturl.at/B4NFu) | Amazon |
+| Cisco SPA122 ATA | Converts analog signals to SIP/VoIP | 1 | $55.95 | [Link](https://shorturl.at/er1GU) | Amazon / Cisco |
+| 32GB MicroSD Card | Storage for Raspberry Pi OS | 1 | $20.50 | [Link](https://shorturl.at/9yTQH) | Amazon / SanDisk |
+| Raspberry Pi 4B (4GB) | Runs Asterisk PBX and TTS system | 1 | $81.99 | [Link]( | Amazon |

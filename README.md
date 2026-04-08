@@ -23,7 +23,7 @@ I wanted to explore how phone systems work and combine analog and IP phones with
 ![System Architecture Diagram](diagrams/SystemDiagram.png)
 
 ## Wiring Diagram
-(Add your wiring diagram image here)
+![Wiring Diagram](diagrams/WiringDiagram.png)
 
 ## 3D Model
 (Add screenshot of CAD model here)

@@ -26,7 +26,7 @@ I wanted to explore how phone systems work and combine analog and IP phones with
 ![Wiring Diagram](diagrams/WiringDiagram.png)
 
 ## 3D Model
-(Add screenshot of CAD model here)
+![Cad Picture](diagrams/cad.png)
 
 ## BOM
 *alternative: you can use a Raspberry Pi 4B (4gb)
